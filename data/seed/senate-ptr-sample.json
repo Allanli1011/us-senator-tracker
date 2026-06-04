@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "schemaVersion": 1,
+    "generatedAt": "2026-06-03T00:00:00.000Z",
+    "sourceNote": "Synthetic development seed. Names and filings are fictional; tickers are used only to exercise the tracker workflow."
+  },
+  "senators": [
+    {
+      "id": "sen-ak-evc",
+      "fullName": "Sen. Evelyn Carter",
+      "state": "AK",
+      "party": "I",
+      "active": true,
+      "committeeTags": ["Energy", "Commerce"],
+      "isSynthetic": true
+    },
+    {
+      "id": "sen-mi-mhl",
+      "fullName": "Sen. Marcus Hale",
+      "state": "MI",
+      "party": "D",
+      "active": true,
+      "committeeTags": ["Armed Services", "Finance"],
+      "isSynthetic": true
+    },
+    {
+      "id": "sen-nc-rkw",
+      "fullName": "Sen. Rowan Whitaker",
+      "state": "NC",
+      "party": "R",
+      "active": true,
+      "committeeTags": ["Banking", "Health"],
+      "isSynthetic": true
+    },
+    {
+      "id": "sen-az-ltm",
+      "fullName": "Sen. Lena Morales",
+      "state": "AZ",
+      "party": "D",
+      "active": true,
+      "committeeTags": ["Judiciary", "Environment"],
+      "isSynthetic": true
+    }
+  ],
+  "securities": [
+    {
+      "ticker": "AAPL",
+      "companyName": "Apple Inc.",
+      "exchange": "NASDAQ",
+      "assetType": "Common Stock",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "NVDA",
+      "companyName": "NVIDIA Corporation",
+      "exchange": "NASDAQ",
+      "assetType": "Common Stock",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "XOM",
+      "companyName": "Exxon Mobil Corporation",
+      "exchange": "NYSE",
+      "assetType": "Common Stock",
+      "sector": "Energy"
+    },
+    {
+      "ticker": "LMT",
+      "companyName": "Lockheed Martin Corporation",
+      "exchange": "NYSE",
+      "assetType": "Common Stock",
+      "sector": "Industrials"
+    },
+    {
+      "ticker": "MSFT",
+      "companyName": "Microsoft Corporation",
+      "exchange": "NASDAQ",
+      "assetType": "Common Stock",
+      "sector": "Technology"
+    },
+    {
+      "ticker": "PFE",
+      "companyName": "Pfizer Inc.",
+      "exchange": "NYSE",
+      "assetType": "Common Stock",
+      "sector": "Health Care"
+    },
+    {
+      "ticker": "SPY",
+      "companyName": "SPDR S&P 500 ETF Trust",
+      "exchange": "NYSE Arca",
+      "assetType": "ETF",
+      "sector": "Diversified"
+    },
+    {
+      "ticker": "TSLA",
+      "companyName": "Tesla, Inc.",
+      "exchange": "NASDAQ",
+      "assetType": "Common Stock",
+      "sector": "Consumer Discretionary"
+    }
+  ],
+  "filings": [
+    {
+      "id": "filing-2026-001",
+      "senatorId": "sen-ak-evc",
+      "reportType": "PTR",
+      "filingDate": "2026-05-22",
+      "source": "synthetic",
+      "sourceUrl": "https://www.senate.gov/",
+      "rawDocumentPath": "data/raw/synthetic/filing-2026-001.pdf",
+      "checksum": "synthetic-001",
+      "parseStatus": "parsed",
+      "capturedAt": "2026-05-22T18:12:00.000Z"
+    },
+    {
+      "id": "filing-2026-002",
+      "senatorId": "sen-mi-mhl",
+      "reportType": "PTR",
+      "filingDate": "2026-05-19",
+      "source": "synthetic",
+      "sourceUrl": "https://www.senate.gov/",
+      "rawDocumentPath": "data/raw/synthetic/filing-2026-002.pdf",
+      "checksum": "synthetic-002",
+      "parseStatus": "parsed",
+      "capturedAt": "2026-05-19T20:45:00.000Z"
+    },
+    {
+      "id": "filing-2026-003",
+      "senatorId": "sen-nc-rkw",
+      "reportType": "PTR",
+      "filingDate": "2026-05-27",
+      "source": "synthetic",
+      "sourceUrl": "https://www.senate.gov/",
+      "rawDocumentPath": "data/raw/synthetic/filing-2026-003.pdf",
+      "checksum": "synthetic-003",
+      "parseStatus": "parsed",
+      "capturedAt": "2026-05-27T13:08:00.000Z"
+    },
+    {
+      "id": "filing-2026-004",
+      "senatorId": "sen-az-ltm",
+      "reportType": "PTR",
+      "filingDate": "2026-05-30",
+      "source": "synthetic",
+      "sourceUrl": "https://www.senate.gov/",
+      "rawDocumentPath": "data/raw/synthetic/filing-2026-004.pdf",
+      "checksum": "synthetic-004",
+      "parseStatus": "parsed",
+      "capturedAt": "2026-05-30T16:10:00.000Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-001",
+      "filingId": "filing-2026-001",
+      "senatorId": "sen-ak-evc",
+      "owner": "Spouse",
+      "transactionDate": "2026-04-18",
+      "transactionType": "Purchase",
+      "assetName": "Exxon Mobil Corporation",
+      "ticker": "XOM",
+      "amountMin": 15001,
+      "amountMax": 50000,
+      "amountLabel": "$15,001 - $50,000",
+      "comment": "Synthetic PTR row",
+      "confidenceScore": 0.96,
+      "sourceRowHash": "seed-tx-001"
+    },
+    {
+      "id": "tx-002",
+      "filingId": "filing-2026-001",
+      "senatorId": "sen-ak-evc",
+      "owner": "Self",
+      "transactionDate": "2026-04-29",
+      "transactionType": "Sale",
+      "assetName": "Apple Inc.",
+      "ticker": "AAPL",
+      "amountMin": 1001,
+      "amountMax": 15000,
+      "amountLabel": "$1,001 - $15,000",
+      "comment": "Synthetic PTR row",
+      "confidenceScore": 0.93,
+      "sourceRowHash": "seed-tx-002"
+    },
+    {
+      "id": "tx-003",
+      "filingId": "filing-2026-002",
+      "senatorId": "sen-mi-mhl",
+      "owner": "Joint",
+      "transactionDate": "2026-04-10",
+      "transactionType": "Purchase",
+      "assetName": "Lockheed Martin Corporation",
+      "ticker": "LMT",
+      "amountMin": 50001,
+      "amountMax": 100000,
+      "amountLabel": "$50,001 - $100,000",
+      "comment": "Synthetic PTR row",
+      "confidenceScore": 0.91,
+      "sourceRowHash": "seed-tx-003"
+    },
+    {
+      "id": "tx-004",
+      "filingId": "filing-2026-002",
+      "senatorId": "sen-mi-mhl",
+      "owner": "Self",
+      "transactionDate": "2026-05-01",
+      "transactionType": "Purchase",
+      "assetName": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "amountMin": 1001,
+      "amountMax": 15000,
+      "amountLabel": "$1,001 - $15,000",
+      "comment": "Synthetic PTR row",
+      "confidenceScore": 0.95,
+      "sourceRowHash": "seed-tx-004"
+    },
+    {
+      "id": "tx-005",
+      "filingId": "filing-2026-003",
+      "senatorId": "sen-nc-rkw",
+      "owner": "Spouse",
+      "transactionDate": "2026-04-25",
+      "transactionType": "Sale",
+      "assetName": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "amountMin": 15001,
+      "amountMax": 50000,
+      "amountLabel": "$15,001 - $50,000",
+      "comment": "Synthetic PTR row",
+      "confidenceScore": 0.9,
+      "sourceRowHash": "seed-tx-005"
+    },
+    {
+      "id": "tx-006",
+      "filingId": "filing-2026-003",
+      "senatorId": "sen-nc-rkw",
+      "owner": "Self",
+      "transactionDate": "2026-05-13",
+      "transactionType": "Purchase",
+      "assetName": "Pfizer Inc.",
+      "ticker": "PFE",
+      "amountMin": 15001,
+      "amountMax": 50000,
+      "amountLabel": "$15,001 - $50,000",
+      "comment": "Synthetic PTR row",
+      "confidenceScore": 0.94,
+      "sourceRowHash": "seed-tx-006"
+    },
+    {
+      "id": "tx-007",
+      "filingId": "filing-2026-004",
+      "senatorId": "sen-az-ltm",
+      "owner": "Self",
+      "transactionDate": "2026-04-30",
+      "transactionType": "Exchange",
+      "assetName": "SPDR S&P 500 ETF Trust",
+      "ticker": "SPY",
+      "amountMin": 100001,
+      "amountMax": 250000,
+      "amountLabel": "$100,001 - $250,000",
+      "comment": "Synthetic PTR row",
+      "confidenceScore": 0.88,
+      "sourceRowHash": "seed-tx-007"
+    },
+    {
+      "id": "tx-008",
+      "filingId": "filing-2026-004",
+      "senatorId": "sen-az-ltm",
+      "owner": "Dependent",
+      "transactionDate": "2026-05-14",
+      "transactionType": "Sale",
+      "assetName": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "amountMin": 1001,
+      "amountMax": 15000,
+      "amountLabel": "$1,001 - $15,000",
+      "comment": "Synthetic PTR row",
+      "confidenceScore": 0.92,
+      "sourceRowHash": "seed-tx-008"
+    },
+    {
+      "id": "tx-009",
+      "filingId": "filing-2026-004",
+      "senatorId": "sen-az-ltm",
+      "owner": "Spouse",
+      "transactionDate": "2026-05-20",
+      "transactionType": "Purchase",
+      "assetName": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "amountMin": 1001,
+      "amountMax": 15000,
+      "amountLabel": "$1,001 - $15,000",
+      "comment": "Synthetic PTR row",
+      "confidenceScore": 0.89,
+      "sourceRowHash": "seed-tx-009"
+    }
+  ],
+  "marketSnapshots": [
+    {
+      "ticker": "AAPL",
+      "observationDate": "2026-05-31",
+      "close": 191.36,
+      "oneDayReturn": 0.4,
+      "sevenDayReturn": -1.8,
+      "thirtyDayReturn": 3.2,
+      "ninetyDayReturn": 5.7
+    },
+    {
+      "ticker": "NVDA",
+      "observationDate": "2026-05-31",
+      "close": 128.42,
+      "oneDayReturn": 1.1,
+      "sevenDayReturn": 4.8,
+      "thirtyDayReturn": 12.6,
+      "ninetyDayReturn": 18.3
+    },
+    {
+      "ticker": "XOM",
+      "observationDate": "2026-05-31",
+      "close": 113.88,
+      "oneDayReturn": -0.2,
+      "sevenDayReturn": 1.3,
+      "thirtyDayReturn": 4.1,
+      "ninetyDayReturn": 6.4
+    },
+    {
+      "ticker": "LMT",
+      "observationDate": "2026-05-31",
+      "close": 478.65,
+      "oneDayReturn": 0.6,
+      "sevenDayReturn": 2.2,
+      "thirtyDayReturn": 7.8,
+      "ninetyDayReturn": 9.9
+    },
+    {
+      "ticker": "MSFT",
+      "observationDate": "2026-05-31",
+      "close": 432.1,
+      "oneDayReturn": 0.9,
+      "sevenDayReturn": 2.5,
+      "thirtyDayReturn": 6.1,
+      "ninetyDayReturn": 10.4
+    },
+    {
+      "ticker": "PFE",
+      "observationDate": "2026-05-31",
+      "close": 29.84,
+      "oneDayReturn": -0.5,
+      "sevenDayReturn": -2.7,
+      "thirtyDayReturn": -4.4,
+      "ninetyDayReturn": 1.2
+    },
+    {
+      "ticker": "SPY",
+      "observationDate": "2026-05-31",
+      "close": 558.11,
+      "oneDayReturn": 0.3,
+      "sevenDayReturn": 1.2,
+      "thirtyDayReturn": 2.9,
+      "ninetyDayReturn": 8.6
+    },
+    {
+      "ticker": "TSLA",
+      "observationDate": "2026-05-31",
+      "close": 179.74,
+      "oneDayReturn": -1.6,
+      "sevenDayReturn": -5.9,
+      "thirtyDayReturn": -8.8,
+      "ninetyDayReturn": -2.1
+    }
+  ]
+}
