@@ -2,7 +2,7 @@ name: Senate PTR Collector
 
 on:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 23 * * *"
   workflow_dispatch:
 
 permissions:

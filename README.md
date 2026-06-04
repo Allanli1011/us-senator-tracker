@@ -148,7 +148,7 @@ The local scheduler only runs while the API process is running. For always-on us
 
 ## GitHub Actions
 
-This repository includes `.github/workflows/collector.yml`, which runs the collector hourly at minute 17 UTC and can also be triggered manually from the Actions tab.
+This repository includes `.github/workflows/collector.yml`, which runs the collector daily at 23:17 UTC (07:17 Beijing time the next day) and can also be triggered manually from the Actions tab.
 
 Before enabling it on GitHub:
 
