@@ -5,11 +5,32 @@
   "pageLength": 25,
   "maxImportsPerRun": 10,
   "isRunning": false,
-  "updatedAt": "2026-06-05T01:31:12.736Z",
-  "lastAttemptAt": "2026-06-05T01:31:12.146Z",
-  "consecutiveFailures": 1,
+  "updatedAt": "2026-06-06T00:20:04.075Z",
+  "lastAttemptAt": "2026-06-06T00:20:03.592Z",
+  "consecutiveFailures": 2,
   "seenReportUuids": [],
   "recentRuns": [
+    {
+      "id": "2a398687-a5de-412f-a9fe-2e9ecaa8e36a",
+      "status": "failed",
+      "startedAt": "2026-06-06T00:20:03.592Z",
+      "discovered": 0,
+      "imported": 0,
+      "skipped": 0,
+      "failed": 0,
+      "sourceUnavailable": true,
+      "searchedStartDate": "2026-04-22",
+      "searchedEndDate": "2026-06-06",
+      "reportUuids": [],
+      "failures": [
+        {
+          "stage": "search",
+          "message": "Senate eFD search returned HTTP 503 (text/html)"
+        }
+      ],
+      "archivePath": "data/raw/senate-efd/2026-06-06/ptr-search-search-report-data-2026-06-06T00-20-04-074Z.json",
+      "finishedAt": "2026-06-06T00:20:04.075Z"
+    },
     {
       "id": "80fb5716-8dc2-45e1-8117-0a9c44c0f57f",
       "status": "failed",
