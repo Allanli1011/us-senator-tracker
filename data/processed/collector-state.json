@@ -5,11 +5,32 @@
   "pageLength": 25,
   "maxImportsPerRun": 10,
   "isRunning": false,
-  "updatedAt": "2026-07-19T00:10:36.107Z",
-  "lastAttemptAt": "2026-07-19T00:10:35.553Z",
-  "consecutiveFailures": 45,
+  "updatedAt": "2026-07-20T00:12:53.600Z",
+  "lastAttemptAt": "2026-07-20T00:12:53.200Z",
+  "consecutiveFailures": 46,
   "seenReportUuids": [],
   "recentRuns": [
+    {
+      "id": "9a5836a1-49db-42d1-81fd-19fd301a62b6",
+      "status": "failed",
+      "startedAt": "2026-07-20T00:12:53.200Z",
+      "discovered": 0,
+      "imported": 0,
+      "skipped": 0,
+      "failed": 0,
+      "sourceUnavailable": true,
+      "searchedStartDate": "2026-06-05",
+      "searchedEndDate": "2026-07-20",
+      "reportUuids": [],
+      "failures": [
+        {
+          "stage": "search",
+          "message": "Senate eFD search returned HTTP 503 (text/html)"
+        }
+      ],
+      "archivePath": "data/raw/senate-efd/2026-07-20/ptr-search-search-report-data-2026-07-20T00-12-53-599Z.json",
+      "finishedAt": "2026-07-20T00:12:53.600Z"
+    },
     {
       "id": "bce1d596-c6ae-4385-a73f-c58838ff10c2",
       "status": "failed",
@@ -408,27 +429,6 @@
       ],
       "archivePath": "data/raw/senate-efd/2026-07-01/ptr-search-search-report-data-2026-07-01T01-33-32-493Z.json",
       "finishedAt": "2026-07-01T01:33:32.494Z"
-    },
-    {
-      "id": "c6eeef7b-49c4-4ad4-8dd9-3d6938f58e65",
-      "status": "failed",
-      "startedAt": "2026-06-30T00:20:18.848Z",
-      "discovered": 0,
-      "imported": 0,
-      "skipped": 0,
-      "failed": 0,
-      "sourceUnavailable": true,
-      "searchedStartDate": "2026-05-16",
-      "searchedEndDate": "2026-06-30",
-      "reportUuids": [],
-      "failures": [
-        {
-          "stage": "search",
-          "message": "Senate eFD search returned HTTP 503 (text/html)"
-        }
-      ],
-      "archivePath": "data/raw/senate-efd/2026-06-30/ptr-search-search-report-data-2026-06-30T00-20-19-255Z.json",
-      "finishedAt": "2026-06-30T00:20:19.257Z"
     }
   ]
 }
