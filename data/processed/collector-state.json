@@ -5,9 +5,9 @@
   "pageLength": 25,
   "maxImportsPerRun": 10,
   "isRunning": false,
-  "updatedAt": "2026-10-18T01:03:57.656Z",
-  "lastAttemptAt": "2026-10-18T01:03:47.357Z",
-  "lastSuccessfulRunAt": "2026-10-18T01:03:57.656Z",
+  "updatedAt": "2026-10-19T01:17:20.313Z",
+  "lastAttemptAt": "2026-10-19T01:17:19.609Z",
+  "lastSuccessfulRunAt": "2026-10-19T01:17:20.313Z",
   "consecutiveFailures": 0,
   "seenReportUuids": [
     "e1ecd5de-aabb-4dfc-ae6e-3862b8df2673",
@@ -38,6 +38,47 @@
     "5ecc9b5c-07c1-4ec1-bd4a-2db759eff299"
   ],
   "recentRuns": [
+    {
+      "id": "d2f4a56b-39dc-4523-925f-cbb305b85bf7",
+      "status": "succeeded",
+      "startedAt": "2026-10-19T01:17:19.609Z",
+      "discovered": 24,
+      "imported": 0,
+      "skipped": 24,
+      "failed": 0,
+      "sourceUnavailable": false,
+      "searchedStartDate": "2026-09-04",
+      "searchedEndDate": "2026-10-19",
+      "reportUuids": [
+        "f4826329-8802-464c-b502-66165bc501c5",
+        "e1ecd5de-aabb-4dfc-ae6e-3862b8df2673",
+        "5ecc9b5c-07c1-4ec1-bd4a-2db759eff299",
+        "dd6f0dbb-3333-442f-a947-20c79871ee45",
+        "86d388af-9927-4890-ae41-6859521366be",
+        "94cdb35a-a771-4aa7-a7f7-fef0082343e5",
+        "33782dc2-cf18-4f2f-82c3-64d6e9572596",
+        "b239e81f-3a2a-4cde-8c96-e82c84266aad",
+        "8361b3a4-562e-4862-9faa-e7e8f2a728ef",
+        "b0c8c060-b625-4ade-bea9-624c36cd54dd",
+        "fe7c39b7-a8ee-4011-b0f6-ab3a320546a0",
+        "37d25209-4ff8-4113-a8d2-bb4b2810351e",
+        "42688977-19a1-49ce-8286-d3ad06e68187",
+        "7a16edce-2afd-47e6-bd0b-ba09dda254e9",
+        "f3e6926f-70d4-4265-9b81-68798dfc73bb",
+        "c4771ad7-1434-4eb6-a5b8-d53fa8f70249",
+        "e29a0a93-7153-42f3-97c5-e9f68fe47820",
+        "272a44f0-e514-4d0a-993d-bc69316c77aa",
+        "a0010f4a-c31a-4824-8b6d-6399b3ccb6f0",
+        "1ce2fd56-5a76-4de8-ba9f-a1cf840172be",
+        "17cb92a5-f23f-4320-a96d-892ee76c92d9",
+        "d411d8c3-b780-4e4e-8490-aa790811fa5f",
+        "32a40eaa-a4a2-4bc3-a594-1c05cbe0531b",
+        "a0a26d20-b140-444b-b562-9d73de4c6bd9"
+      ],
+      "failures": [],
+      "archivePath": "data/raw/senate-efd/2026-10-19/ptr-search-search-report-data-2026-10-19T01-17-20-297Z.json",
+      "finishedAt": "2026-10-19T01:17:20.313Z"
+    },
     {
       "id": "74b75e9a-c9ed-4c84-8136-4cb3c855b707",
       "status": "succeeded",
@@ -495,27 +536,6 @@
       ],
       "archivePath": "data/raw/senate-efd/2026-09-30/ptr-search-search-report-data-2026-09-30T02-08-30-012Z.json",
       "finishedAt": "2026-09-30T02:08:30.013Z"
-    },
-    {
-      "id": "6818c15a-294e-49ed-aaae-23e47112a165",
-      "status": "failed",
-      "startedAt": "2026-09-29T02:34:56.019Z",
-      "discovered": 0,
-      "imported": 0,
-      "skipped": 0,
-      "failed": 0,
-      "sourceUnavailable": true,
-      "searchedStartDate": "2026-08-15",
-      "searchedEndDate": "2026-09-29",
-      "reportUuids": [],
-      "failures": [
-        {
-          "stage": "search",
-          "message": "Senate eFD search returned HTTP 503 (text/html)"
-        }
-      ],
-      "archivePath": "data/raw/senate-efd/2026-09-29/ptr-search-search-report-data-2026-09-29T02-34-56-388Z.json",
-      "finishedAt": "2026-09-29T02:34:56.389Z"
     }
   ]
 }
