@@ -5,10 +5,10 @@
   "pageLength": 25,
   "maxImportsPerRun": 10,
   "isRunning": false,
-  "updatedAt": "2026-10-24T01:35:52.497Z",
-  "lastAttemptAt": "2026-10-24T01:35:52.058Z",
+  "updatedAt": "2026-10-25T01:11:19.538Z",
+  "lastAttemptAt": "2026-10-25T01:11:19.221Z",
   "lastSuccessfulRunAt": "2026-10-23T01:32:22.229Z",
-  "consecutiveFailures": 1,
+  "consecutiveFailures": 2,
   "seenReportUuids": [
     "e1ecd5de-aabb-4dfc-ae6e-3862b8df2673",
     "f4826329-8802-464c-b502-66165bc501c5",
@@ -38,6 +38,26 @@
     "5ecc9b5c-07c1-4ec1-bd4a-2db759eff299"
   ],
   "recentRuns": [
+    {
+      "id": "439da638-2ba4-42a7-8426-fc6559db429b",
+      "status": "failed",
+      "startedAt": "2026-10-25T01:11:19.221Z",
+      "discovered": 0,
+      "imported": 0,
+      "skipped": 0,
+      "failed": 1,
+      "sourceUnavailable": false,
+      "searchedStartDate": "2026-09-10",
+      "searchedEndDate": "2026-10-25",
+      "reportUuids": [],
+      "failures": [
+        {
+          "stage": "unknown",
+          "message": "Senate eFD agreement failed with HTTP 403"
+        }
+      ],
+      "finishedAt": "2026-10-25T01:11:19.537Z"
+    },
     {
       "id": "640ea911-43f8-4ca0-8b3b-b6a872d57189",
       "status": "failed",
@@ -594,27 +614,6 @@
       ],
       "archivePath": "data/raw/senate-efd/2026-10-06/ptr-search-search-report-data-2026-10-06T02-59-31-005Z.json",
       "finishedAt": "2026-10-06T02:59:31.006Z"
-    },
-    {
-      "id": "b70f1747-7bc8-4f41-88aa-af35a8b38421",
-      "status": "failed",
-      "startedAt": "2026-10-05T02:01:58.521Z",
-      "discovered": 0,
-      "imported": 0,
-      "skipped": 0,
-      "failed": 0,
-      "sourceUnavailable": true,
-      "searchedStartDate": "2026-08-21",
-      "searchedEndDate": "2026-10-05",
-      "reportUuids": [],
-      "failures": [
-        {
-          "stage": "search",
-          "message": "Senate eFD search returned HTTP 503 (text/html)"
-        }
-      ],
-      "archivePath": "data/raw/senate-efd/2026-10-05/ptr-search-search-report-data-2026-10-05T02-01-59-535Z.json",
-      "finishedAt": "2026-10-05T02:01:59.537Z"
     }
   ]
 }
