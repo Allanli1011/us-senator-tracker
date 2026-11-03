@@ -5,10 +5,10 @@
   "pageLength": 25,
   "maxImportsPerRun": 10,
   "isRunning": false,
-  "updatedAt": "2026-11-02T02:32:38.602Z",
-  "lastAttemptAt": "2026-11-02T02:32:38.022Z",
+  "updatedAt": "2026-11-03T03:55:56.333Z",
+  "lastAttemptAt": "2026-11-03T03:55:55.973Z",
   "lastSuccessfulRunAt": "2026-10-23T01:32:22.229Z",
-  "consecutiveFailures": 10,
+  "consecutiveFailures": 11,
   "seenReportUuids": [
     "e1ecd5de-aabb-4dfc-ae6e-3862b8df2673",
     "f4826329-8802-464c-b502-66165bc501c5",
@@ -38,6 +38,26 @@
     "5ecc9b5c-07c1-4ec1-bd4a-2db759eff299"
   ],
   "recentRuns": [
+    {
+      "id": "ae76a5bd-88dc-419e-9d51-c045fc5dee41",
+      "status": "failed",
+      "startedAt": "2026-11-03T03:55:55.973Z",
+      "discovered": 0,
+      "imported": 0,
+      "skipped": 0,
+      "failed": 1,
+      "sourceUnavailable": false,
+      "searchedStartDate": "2026-09-19",
+      "searchedEndDate": "2026-11-03",
+      "reportUuids": [],
+      "failures": [
+        {
+          "stage": "unknown",
+          "message": "Senate eFD agreement failed with HTTP 403"
+        }
+      ],
+      "finishedAt": "2026-11-03T03:55:56.332Z"
+    },
     {
       "id": "9756db94-009e-45d0-bc36-dbf11500a663",
       "status": "failed",
@@ -585,27 +605,6 @@
         }
       ],
       "finishedAt": "2026-10-15T01:29:32.624Z"
-    },
-    {
-      "id": "8a2df73b-f67b-43e8-86f8-8519b3969f32",
-      "status": "failed",
-      "startedAt": "2026-10-14T01:54:51.624Z",
-      "discovered": 0,
-      "imported": 0,
-      "skipped": 0,
-      "failed": 0,
-      "sourceUnavailable": true,
-      "searchedStartDate": "2026-08-30",
-      "searchedEndDate": "2026-10-14",
-      "reportUuids": [],
-      "failures": [
-        {
-          "stage": "search",
-          "message": "Senate eFD search returned HTTP 503 (text/html)"
-        }
-      ],
-      "archivePath": "data/raw/senate-efd/2026-10-14/ptr-search-search-report-data-2026-10-14T01-54-52-257Z.json",
-      "finishedAt": "2026-10-14T01:54:52.258Z"
     }
   ]
 }
