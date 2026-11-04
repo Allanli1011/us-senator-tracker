@@ -5,10 +5,10 @@
   "pageLength": 25,
   "maxImportsPerRun": 10,
   "isRunning": false,
-  "updatedAt": "2026-11-03T03:55:56.333Z",
-  "lastAttemptAt": "2026-11-03T03:55:55.973Z",
+  "updatedAt": "2026-11-04T03:00:15.410Z",
+  "lastAttemptAt": "2026-11-04T03:00:15.000Z",
   "lastSuccessfulRunAt": "2026-10-23T01:32:22.229Z",
-  "consecutiveFailures": 11,
+  "consecutiveFailures": 12,
   "seenReportUuids": [
     "e1ecd5de-aabb-4dfc-ae6e-3862b8df2673",
     "f4826329-8802-464c-b502-66165bc501c5",
@@ -38,6 +38,26 @@
     "5ecc9b5c-07c1-4ec1-bd4a-2db759eff299"
   ],
   "recentRuns": [
+    {
+      "id": "4eab2a62-3da8-4383-b8c4-b795706458be",
+      "status": "failed",
+      "startedAt": "2026-11-04T03:00:15.000Z",
+      "discovered": 0,
+      "imported": 0,
+      "skipped": 0,
+      "failed": 1,
+      "sourceUnavailable": false,
+      "searchedStartDate": "2026-09-20",
+      "searchedEndDate": "2026-11-04",
+      "reportUuids": [],
+      "failures": [
+        {
+          "stage": "unknown",
+          "message": "Senate eFD agreement failed with HTTP 403"
+        }
+      ],
+      "finishedAt": "2026-11-04T03:00:15.409Z"
+    },
     {
       "id": "ae76a5bd-88dc-419e-9d51-c045fc5dee41",
       "status": "failed",
@@ -585,26 +605,6 @@
       "failures": [],
       "archivePath": "data/raw/senate-efd/2026-10-16/ptr-search-search-report-data-2026-10-16T01-22-12-042Z.json",
       "finishedAt": "2026-10-16T01:22:30.492Z"
-    },
-    {
-      "id": "726b7d70-af7b-433c-89fa-f0341a4f26ea",
-      "status": "failed",
-      "startedAt": "2026-10-15T01:29:32.336Z",
-      "discovered": 0,
-      "imported": 0,
-      "skipped": 0,
-      "failed": 1,
-      "sourceUnavailable": false,
-      "searchedStartDate": "2026-08-31",
-      "searchedEndDate": "2026-10-15",
-      "reportUuids": [],
-      "failures": [
-        {
-          "stage": "unknown",
-          "message": "Unable to find Senate eFD CSRF token on agreement page"
-        }
-      ],
-      "finishedAt": "2026-10-15T01:29:32.624Z"
     }
   ]
 }
