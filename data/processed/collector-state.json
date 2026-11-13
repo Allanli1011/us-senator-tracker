@@ -5,10 +5,10 @@
   "pageLength": 25,
   "maxImportsPerRun": 10,
   "isRunning": false,
-  "updatedAt": "2026-11-12T03:49:07.020Z",
-  "lastAttemptAt": "2026-11-12T03:49:06.434Z",
-  "lastSuccessfulRunAt": "2026-11-11T02:47:58.627Z",
-  "consecutiveFailures": 1,
+  "updatedAt": "2026-11-13T03:25:32.474Z",
+  "lastAttemptAt": "2026-11-13T03:25:31.424Z",
+  "lastSuccessfulRunAt": "2026-11-13T03:25:32.474Z",
+  "consecutiveFailures": 0,
   "seenReportUuids": [
     "e1ecd5de-aabb-4dfc-ae6e-3862b8df2673",
     "f4826329-8802-464c-b502-66165bc501c5",
@@ -38,6 +38,47 @@
     "5ecc9b5c-07c1-4ec1-bd4a-2db759eff299"
   ],
   "recentRuns": [
+    {
+      "id": "f1c555b4-992f-46bc-82b3-90ebcfcdc160",
+      "status": "succeeded",
+      "startedAt": "2026-11-13T03:25:31.424Z",
+      "discovered": 24,
+      "imported": 0,
+      "skipped": 24,
+      "failed": 0,
+      "sourceUnavailable": false,
+      "searchedStartDate": "2026-09-29",
+      "searchedEndDate": "2026-11-13",
+      "reportUuids": [
+        "42688977-19a1-49ce-8286-d3ad06e68187",
+        "b0c8c060-b625-4ade-bea9-624c36cd54dd",
+        "fe7c39b7-a8ee-4011-b0f6-ab3a320546a0",
+        "e1ecd5de-aabb-4dfc-ae6e-3862b8df2673",
+        "272a44f0-e514-4d0a-993d-bc69316c77aa",
+        "4e013e86-56bf-4a73-90ea-d7badba4ac9b",
+        "d411d8c3-b780-4e4e-8490-aa790811fa5f",
+        "94cdb35a-a771-4aa7-a7f7-fef0082343e5",
+        "7a16edce-2afd-47e6-bd0b-ba09dda254e9",
+        "b239e81f-3a2a-4cde-8c96-e82c84266aad",
+        "5ecc9b5c-07c1-4ec1-bd4a-2db759eff299",
+        "f3e6926f-70d4-4265-9b81-68798dfc73bb",
+        "37d25209-4ff8-4113-a8d2-bb4b2810351e",
+        "32a40eaa-a4a2-4bc3-a594-1c05cbe0531b",
+        "1ce2fd56-5a76-4de8-ba9f-a1cf840172be",
+        "dd6f0dbb-3333-442f-a947-20c79871ee45",
+        "19a274dd-2f9c-4468-b9f2-dc68f2d2ac6b",
+        "e29a0a93-7153-42f3-97c5-e9f68fe47820",
+        "17cb92a5-f23f-4320-a96d-892ee76c92d9",
+        "a0010f4a-c31a-4824-8b6d-6399b3ccb6f0",
+        "f4826329-8802-464c-b502-66165bc501c5",
+        "8361b3a4-562e-4862-9faa-e7e8f2a728ef",
+        "86d388af-9927-4890-ae41-6859521366be",
+        "c4771ad7-1434-4eb6-a5b8-d53fa8f70249"
+      ],
+      "failures": [],
+      "archivePath": "data/raw/senate-efd/2026-11-13/ptr-search-search-report-data-2026-11-13T03-25-32-459Z.json",
+      "finishedAt": "2026-11-13T03:25:32.474Z"
+    },
     {
       "id": "faff005a-cd3e-4fd8-8f62-430683d168b2",
       "status": "failed",
@@ -460,26 +501,6 @@
         }
       ],
       "finishedAt": "2026-10-25T01:11:19.537Z"
-    },
-    {
-      "id": "640ea911-43f8-4ca0-8b3b-b6a872d57189",
-      "status": "failed",
-      "startedAt": "2026-10-24T01:35:52.058Z",
-      "discovered": 0,
-      "imported": 0,
-      "skipped": 0,
-      "failed": 1,
-      "sourceUnavailable": false,
-      "searchedStartDate": "2026-09-09",
-      "searchedEndDate": "2026-10-24",
-      "reportUuids": [],
-      "failures": [
-        {
-          "stage": "unknown",
-          "message": "Senate eFD agreement failed with HTTP 403"
-        }
-      ],
-      "finishedAt": "2026-10-24T01:35:52.497Z"
     }
   ]
 }
